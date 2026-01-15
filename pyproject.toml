@@ -1,0 +1,29 @@
+[project]
+name = "home-credit-default-risk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.18.0",
+    "boto3>=1.42.27",
+    "catboost>=1.2.8",
+    "dagshub>=0.6.4",
+    "fastapi>=0.128.0",
+    "flask>=3.1.2",
+    "gunicorn>=23.0.0",
+    "ipykernel>=7.1.0",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.8",
+    "mlflow>=3.8.1",
+    "numpy<2.0",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "shap>=0.49.1",
+    "sqlalchemy>=2.0.45",
+    "uvicorn>=0.40.0",
+    "xgboost>=3.1.3",
+]
