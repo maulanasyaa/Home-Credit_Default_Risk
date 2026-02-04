@@ -17,6 +17,7 @@ dependencies = [
     "matplotlib>=3.10.8",
     "mlflow>=3.8.1",
     "numpy<2.0",
+    "optuna>=4.7.0",
     "pandas>=2.3.3",
     "psycopg2-binary>=2.9.11",
     "python-dotenv>=1.2.1",
